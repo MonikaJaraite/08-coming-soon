@@ -1,13 +1,18 @@
 {
-  "name": "08-tuscias-projektas",
+  "name": "08-coming-soon",
   "version": "1.0.0",
-  "description": "",
+  "description": "first project with more css, following steps of the teacher",
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost --port=4208",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "html",
+    "css",
+    "positioning",
+    "some animation"
+  ],
   "author": "Monika (https://github.com/MonikaJaraite)",
   "license": "ISC",
   "devDependencies": {
