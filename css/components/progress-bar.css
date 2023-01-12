@@ -1,0 +1,39 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar > .top > .label {   
+}
+.progress-bar > .top > .value {  
+}
+.progress-bar > .progress {
+    width: 100%;
+    height: 6px;
+    background-color: lightgray;
+}
+.progress-bar > .progress > .bar {
+    width: 90%;
+    height: 6px;
+    background-color: #03a9f3;
+}
+
+/* .progress-bar:nth-child(4) > .progress > .bar {
+    width: 75%;
+} */
+/* .progress-bar:nth-child(2) > .progress > .bar {
+    width: 75%;
+    nes 2-ras vaikas yra paragrafas;
+    progress bar'as yra 4-tas vaikas
+    n-th of type iesko tag'o, ne klases
+} */
+/* .progress-bar:nth-of-type(2) > .progress > .bar {
+    width: 75%;
+} */
+/* .progress-bar:nth-child(5) > .progress > .bar {
+    width: 50%;
+} */
