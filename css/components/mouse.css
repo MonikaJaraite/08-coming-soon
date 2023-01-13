@@ -28,14 +28,14 @@
 
 @keyframes scroll {
     0% {
-        top: 2.5em;
-        background-color: #fff;
+        transform: translate(-50%, 0);
+        opacity: 1;
     }
     30% {
-        background-color: #fff;
+        opacity: 1;
     }
     100% {
-        top: 7.5em;
-        background-color: transparent;
+        transform: translate(-50%, 330%);
+        opacity: 0;
     }
 }
