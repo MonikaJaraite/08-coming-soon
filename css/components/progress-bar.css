@@ -1,6 +1,7 @@
 .progress-bar {
     display: flex;
     flex-direction: column;
+    color: #777;
     gap: 7px;
 }
 .progress-bar > .top {

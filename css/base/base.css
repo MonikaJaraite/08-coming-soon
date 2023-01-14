@@ -19,10 +19,14 @@ body {
     background-color: #03a9f3;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 p {
     font-size: 16px;
     line-height: 1.2em;
-    color: #333;
+    color: #777;
 }
 p > a {
     color: #ea1e63;
